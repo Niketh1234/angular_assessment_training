@@ -1,4 +1,4 @@
-# Angular  Assessment - BookApp    --   2hr 30 mts
+# Angular  Assessment - BookApp    --   Max Duration: 2hr 30 mts
 
 ## Objective
 
@@ -28,6 +28,7 @@ This is an angular application, where, you can add the details of a book and dis
 			- Input of type text for getting the Publishing Year.
 
 			- Input of type text for getting the Language.
+			- Add Appropriate buttons to submit and rest the form
 
 -  Apply the appropriate validator to each of the Input fields, so that, the form should be valid only when all the field is containing the value.
 
