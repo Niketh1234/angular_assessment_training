@@ -1,0 +1,19 @@
+<div class="main-container">
+    <div class="container">
+        <h1>Enter you Book Details : </h1>
+        <label for="bookName">Book:</label>
+        <input type="text" id="bookName" required [(ngModel)]="book.bookName">
+        <br>
+        <label for="authorName">Author:</label>
+        <input type="text" id="authorName" required [(ngModel)]="book.authorName">
+        <br>
+        <label for="publishingYear">Publishing Year:</label>
+        <input type="text" id="publishingYear" required [(ngModel)]="book.publishingYear">
+        <br>
+        <label for="language">Language:</label>
+        <input type="text" id="language" required [(ngModel)]="book.language">
+        <br>
+        <input type = "submit" value="Add Book" id="addBookButton" (click)="addFunction()">
+        <input type = "submit" value="Reset" id="addBookButton" (click)="cancelFunction()">
+    </div>
+</div>
